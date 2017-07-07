@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initCollapsingToolbar(){
         collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setTitle(" ");
+        collapsingToolbar.setTitle("List of Musik");
 
         appBarLayout = (AppBarLayout) findViewById(R.id.appBar);
         appBarLayout.setExpanded(true);
