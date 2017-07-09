@@ -53,7 +53,10 @@ public class MainActivity extends AppCompatActivity {
         tvHoraMovie = (TextView) findViewById(R.id.tvMovieMin) ;
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("Mi Lista de Canciones");
         setSupportActionBar(toolbar);
+
+
 
         //animacion
         initCollapsingToolbar();
