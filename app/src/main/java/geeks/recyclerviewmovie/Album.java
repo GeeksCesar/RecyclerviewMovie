@@ -8,6 +8,7 @@ public class Album {
     private String name;
     private int numOfSongs;
     private int thumbnail;
+    private int idAlbum ;
 
 
     public Album() {
